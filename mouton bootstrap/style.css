@@ -1,12 +1,13 @@
-body{
-    background-image: url(/assets/images/slider.png); 
+.header{
+    background-image:url(./assets/images/slider.png); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 100vh;
 }
 .jumbotron{
     background-color: #e9ecef00 !important; 
     position: relative;
-    top: 25em;
+    top: 20em;
     left: 45%;
     color: white;
 }
@@ -17,18 +18,18 @@ body{
     font-size: 350%;
 }
 /* ça ne fonctionne pas */
-.jumbotron p ::after{
+#un::before{
     width: 100px;
     height: 100px;
-    border-radius: 20px;
-    background: white;
+    border-radius: 100px;
+    background: black;
 }
 #un{
-    margin-top: 38%;
+    margin-top: 5%;
     text-align: center;
 }
 #un h1{
-    font-size: 5em;
+    font-size: 3em;
 }
 .paragraphe{
     margin-top: 5%;
@@ -43,10 +44,23 @@ body{
 }
 #personnalisation{
     background-color: rgb(254, 232, 226);
-    justify-content: space-between;
 }
-#deux{
-   
+#hepburn{
+    font-size: 3em;
+    margin-top: 5%;
 }
-
+#audrey{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-left: 19%;
+}
+#jeunes{
+    margin-left: 10%;
+}
+#test{
     
+}
+#test h1{
+    margin-top: 5%;    
+    font-size: 4em;
+}
