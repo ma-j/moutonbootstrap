@@ -24,6 +24,30 @@
 #un h1{
     font-size: 3em;
 }
+#ronds{
+  margin-top: 3%;  
+  margin-right: 50%;
+}
+#rond{
+    background:#000000;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+#rond1{
+    background:#ffffff;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+#trait{
+    background:#000000;
+    border-radius:20%;
+    width:100px;
+    height:10px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
 .paragraphe{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -40,12 +64,35 @@
     margin-top: 5%;
     margin-left: 19%;
 }
+#ligne{
+    margin-left: 18%;
+}
+#cercle{
+    background:#000000;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+}
+#cercle1{
+    background:#ffffff;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    border: 1px solid black;
+}
 #jeunes{
     margin-left: 10%;
 }
 #test h1{
     margin-top: 5%;    
     font-size: 4em;
+}
+#trait1{
+    background:#000000;
+    border-radius:20%;
+    width:100px;
+    height:10px;
+    margin-top: 4%;
 }
 #carre{
     margin-top: 5%;
@@ -77,6 +124,14 @@
 #poster h1{
     margin-top: 5%;    
     font-size: 4em;
+}
+#trait2{
+    background:#000000;
+    border-radius:20%;
+    width:100px;
+    height:10px;
+    margin-top: 1%;
+    margin-left: 21%;
 }
 #essai{
     margin-top: 2%;
