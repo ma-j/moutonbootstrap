@@ -1,0 +1,52 @@
+body{
+    background-image: url(/assets/images/slider.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.jumbotron{
+    background-color: #e9ecef00 !important; 
+    position: relative;
+    top: 25em;
+    left: 45%;
+    color: white;
+}
+.jumbotron h1{
+    font-size: 1050%;
+}
+.jumbotron p{
+    font-size: 350%;
+}
+/* ça ne fonctionne pas */
+.jumbotron p ::after{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: white;
+}
+#un{
+    margin-top: 38%;
+    text-align: center;
+}
+#un h1{
+    font-size: 5em;
+}
+.paragraphe{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* ça ne fonctionne pas */
+.paragraphe ::before{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: gray;
+}
+#personnalisation{
+    background-color: rgb(254, 232, 226);
+    justify-content: space-between;
+}
+#deux{
+   
+}
+
+    
