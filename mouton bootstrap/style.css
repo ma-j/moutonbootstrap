@@ -17,13 +17,6 @@
 .jumbotron p{
     font-size: 350%;
 }
-/* ça ne fonctionne pas */
-#un::before{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    background: black;
-}
 #un{
     margin-top: 5%;
     text-align: center;
@@ -34,13 +27,6 @@
 .paragraphe{
     margin-top: 5%;
     margin-bottom: 5%;
-}
-/* ça ne fonctionne pas */
-.paragraphe ::before{
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    background: gray;
 }
 #personnalisation{
     background-color: rgb(254, 232, 226);
@@ -56,9 +42,6 @@
 }
 #jeunes{
     margin-left: 10%;
-}
-#test{
-    
 }
 #test h1{
     margin-top: 5%;    
@@ -95,10 +78,32 @@
     margin-top: 5%;    
     font-size: 4em;
 }
+#essai{
+    margin-top: 2%;
+    background: linear-gradient(#ffffff, #eff0f3);
+    padding-bottom: 5%;
+}
+#cravate{
+    display: block;
+    margin: auto;
+}
+#orange{
+    margin-top: 7%;
+}
+#cafe{
+    display: block;
+    margin: auto;
+}
+#brun{
+    margin-top: 7%;
+}
+#chut{
+    display: block;
+    margin: auto;
+}
 #buttonbrowse{
     margin-top: 5%;
-    margin-left: 50%;
-    
+    margin-left: 50%; 
 }
 #footer{
     margin-left: 10%;
